@@ -49,6 +49,7 @@
     "format:check": "prettier \"src/**/*.ts\" --check",
     "lint": "eslint src --ext .ts --fix",
     "lint:check": "eslint src --ext .ts",
+    "prepare": "npm run build",
     "test": "vitest run",
     "test:watch": "vitest watch",
     "test:coverage": "vitest run --coverage",
